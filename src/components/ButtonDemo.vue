@@ -6,12 +6,10 @@
     Example 1
   </h1>
   <div>
-    <Button @click="onClick"
-            @focus="onClick"
-            @mouseover="onClick"
-    >
-      Halo!
-    </Button>
+    <Button>Halo!</Button>
+    <Button theme="button">Halo!</Button>
+    <Button theme="link">Halo!</Button>
+    <Button theme="text">Halo!</Button>
   </div>
 </template>
 <script lang="ts">
