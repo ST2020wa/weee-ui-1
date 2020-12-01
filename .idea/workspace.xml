@@ -38,7 +38,7 @@
       <workItem from="1606646480539" duration="12000" />
       <workItem from="1606646501233" duration="30000" />
       <workItem from="1606646545540" duration="1095000" />
-      <workItem from="1606790774227" duration="3088000" />
+      <workItem from="1606790774227" duration="6643000" />
     </task>
     <servers />
   </component>
@@ -46,13 +46,13 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="335" y="225" width="598" height="490" key="find.popup" timestamp="1606646720736">
+    <state x="335" y="225" width="598" height="490" key="find.popup" timestamp="1606805201734">
       <screen x="0" y="23" width="2560" height="1366" />
     </state>
-    <state x="335" y="225" width="598" height="490" key="find.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1606646720736" />
-    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup" timestamp="1606796915590">
+    <state x="335" y="225" width="598" height="490" key="find.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1606805201734" />
+    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup" timestamp="1606805111999">
       <screen x="0" y="23" width="2560" height="1366" />
     </state>
-    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1606796915590" />
+    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1606805111999" />
   </component>
 </project>

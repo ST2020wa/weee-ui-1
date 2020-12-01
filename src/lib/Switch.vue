@@ -1,5 +1,5 @@
 <template>
-  <button @click="toggle" :class="{checked:value}">
+  <button class="weee-switch" @click="toggle" :class="{'weee-checked':value}">
 <!--    如果x为true，button class是checked；反之则不是checked-->
     <span></span>
   </button>
@@ -22,34 +22,43 @@ import {ref} from 'vue'
   }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 $h: 22px;
 $h2: $h - 4px;
-button{
+.weee-switch {
   background: lightgrey;
   height: $h;
   width: $h*2;
   border: none;
   border-radius: $h/2;
   position: relative;
+  > span{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: $h2;
+    width: $h2;
+    background:white;
+    border-radius: $h2 / 2;
+    transition: left 250ms;
+  }
+  &.weee-checked{
+    background: lightgreen;
+    > span {
+      left: calc(100% - #{$h2} - 2px);
+    }
+  }
+  &:focus{
+    outline: none;
+  }
+  &:active {
+    > span {width: $h2 + 4px;}
+  }
+  &.weee-checked:active {
+    > span { width: $h2 + 4px;
+      margin-left: -4px;}
+  }
 }
-span{
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  height: $h2;
-  width: $h2;
-  background:lightgreen;
-  border-radius: $h2 / 2;
-  transition: left 250ms;
-}
-button.checked{
-  background: white;
-}
-button.checked > span {
-  left: calc(100% - #{$h2} - 2px);
-}
-button:focus{
-  outline: none;
-}
+
+
 </style>
