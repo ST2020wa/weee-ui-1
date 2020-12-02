@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d3e7459-1e24-45c5-a320-a5568e12add8" name="Default Changelist" comment="" />
+    <list default="true" id="8d3e7459-1e24-45c5-a320-a5568e12add8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite_opt_cache/hash" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite_opt_cache/hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/globals.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/globals.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/process.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/process.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/util.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/util.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ksVxcE6GGbcBKzDq7TMNl7QI5S" />
   <component name="ProjectViewState">
@@ -38,7 +54,12 @@
       <workItem from="1606646480539" duration="12000" />
       <workItem from="1606646501233" duration="30000" />
       <workItem from="1606646545540" duration="1095000" />
-      <workItem from="1606790774227" duration="6643000" />
+      <workItem from="1606790774227" duration="8199000" />
+      <workItem from="1606812434041" duration="26000" />
+      <workItem from="1606812618162" duration="2849000" />
+      <workItem from="1606886613476" duration="41000" />
+      <workItem from="1606897371031" duration="268000" />
+      <workItem from="1606897668097" duration="1897000" />
     </task>
     <servers />
   </component>
@@ -46,13 +67,13 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="335" y="225" width="598" height="490" key="find.popup" timestamp="1606805201734">
+    <state x="334" y="226" width="598" height="490" key="find.popup" timestamp="1606805486278">
       <screen x="0" y="23" width="2560" height="1366" />
     </state>
-    <state x="335" y="225" width="598" height="490" key="find.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1606805201734" />
-    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup" timestamp="1606805111999">
+    <state x="334" y="226" width="598" height="490" key="find.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1606805486278" />
+    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup" timestamp="1606886644037">
       <screen x="0" y="23" width="2560" height="1366" />
     </state>
-    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1606805111999" />
+    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1606886644037" />
   </component>
 </project>
