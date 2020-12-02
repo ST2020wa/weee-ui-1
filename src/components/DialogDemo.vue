@@ -6,7 +6,15 @@
   <Button @click="toggle">toggle</Button>
   <Dialog v-model:visible="x" :closeOnClickOverlay="false"
           :ok="f1" :cancel="f2"
-  ></Dialog>
+  >
+    <template v-slot:content>
+      <strong>h111</strong>
+      <div>h222</div>
+    </template>
+    <template v-slot:title>
+      <strong>BOLD Title</strong>
+    </template>
+  </Dialog>
   <!-- 上面代码是本行代码的简写  <Dialog :visible="x" @update:visible="x = $event"></Dialog>-->
 
 </template>
