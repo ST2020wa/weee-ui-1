@@ -1,23 +1,25 @@
 <template>
   <template v-if="visible">
-    <div class="weee-dialog-overlay"
-         @click="closeOnClickOverlay"
-    ></div>
-    <div class="weee-dialog-wrapper">
-      <div class="weee-dialog">
-        <header>
-          <slot name="title" />
-          <span @click="close" class="weee-dialog-close"></span>
-        </header>
-        <main>
-          <slot name="content" />
-        </main>
-        <footer>
-          <Button level="main" @click="ok">OK</Button>
-          <Button @click="cancel">Cancel</Button>
-        </footer>
+    <Teleport to="body">
+      <div class="weee-dialog-overlay"
+           @click="closeOnClickOverlay"
+      ></div>
+      <div class="weee-dialog-wrapper">
+        <div class="weee-dialog">
+          <header>
+            <slot name="title" />
+            <span @click="close" class="weee-dialog-close"></span>
+          </header>
+          <main>
+            <slot name="content" />
+          </main>
+          <footer>
+            <Button level="main" @click="ok">OK</Button>
+            <Button @click="cancel">Cancel</Button>
+          </footer>
+        </div>
       </div>
-    </div>
+    </Teleport>
   </template>
 </template>
 <script lang="ts">
