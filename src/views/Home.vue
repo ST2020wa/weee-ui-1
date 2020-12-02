@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: white;
+  background: lightgreen;
   > .actions{
     padding: 8px 0;
     a {
@@ -36,6 +36,8 @@
       line-height: $h;
       border-radius: $h/2;
       padding: 0 8px;
+      border-bottom: 3px solid darkgreen;
+      cursor: cell;
     }
   }
 }
