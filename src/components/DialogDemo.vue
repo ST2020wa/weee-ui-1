@@ -4,7 +4,11 @@
   </div>
   <h1>Sample 1</h1>
   <Button @click="toggle">toggle</Button>
-  <Dialog :visible="x"></Dialog>
+  <Dialog v-model:visible="x" :closeOnClickOverlay="false"
+          :ok="f1" :cancel="f2"
+  ></Dialog>
+  <!-- 上面代码是本行代码的简写  <Dialog :visible="x" @update:visible="x = $event"></Dialog>-->
+
 </template>
 <script lang="ts">
 import Dialog from '../lib/Dialog.vue'
@@ -19,8 +23,13 @@ export default {
     const toggle = ()=>{
       x.value = !x.value
     }
+    const f1 = ()=>{
+      return false
+    }
+    const f2 = ()=>{
+    }
     return {
-      x, toggle
+      x, toggle, f1, f2
     }
   }
 }
