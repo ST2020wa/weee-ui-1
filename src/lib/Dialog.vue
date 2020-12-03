@@ -54,7 +54,8 @@ export default {
       }
     }
     const cancel = ()=>{
-      context.emit('cancel')
+      props.cancel ?.()
+      // 上一行是本行的简写 props.cancel && props.cancel()
       close()
     }
     return {close, onClickOverlay, ok, cancel}
