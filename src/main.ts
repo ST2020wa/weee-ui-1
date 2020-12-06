@@ -3,7 +3,7 @@ import './index.scss'
 import { createApp } from 'vue'  // 引入createApp，用来创建app实例的重要函数
 import App from './App.vue'  // 引入App.vue组件
 import {router} from './router'
-
+import 'github-markdown-css'
 
 
 const app = createApp(App)
