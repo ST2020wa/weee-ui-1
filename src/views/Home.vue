@@ -18,13 +18,16 @@
   }
 </script>
 <style lang="scss" scoped>
+.topnavAndBanner {
+  background: rgb(231,80,137);
+  background: linear-gradient(135deg, rgba(231,80,137,1) 0%, rgba(228,152,147,1) 50%, rgba(218,154,188,1) 100%);
+}
 .banner {
   padding: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: lightgreen;
   > .actions{
     padding: 8px 0;
     a {
