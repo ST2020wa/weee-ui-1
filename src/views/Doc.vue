@@ -4,6 +4,18 @@
     <div class="content">
       <aside v-if="menuVisible">
         <!--        当 menuVisible 变化的时候， aside 也要变化-->
+        <h2>Doc</h2>
+        <ol>
+          <li>
+            <router-link to="/doc/intro">Intro</router-link>
+          </li>
+          <li>
+            <router-link to="/doc/install">Install</router-link>
+          </li>
+          <li>
+            <router-link to="/doc/get-started">Get Started</router-link>
+          </li>
+        </ol>
         <h2>Components</h2>
         <ol>
           <li>
