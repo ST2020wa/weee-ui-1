@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d3e7459-1e24-45c5-a320-a5568e12add8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/GetStarted.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Install.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Intro.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +70,7 @@
       <workItem from="1606897668097" duration="10529000" />
       <workItem from="1606964412750" duration="2675000" />
       <workItem from="1607244588507" duration="17672000" />
-      <workItem from="1607296817139" duration="882000" />
+      <workItem from="1607296817139" duration="1104000" />
     </task>
     <servers />
   </component>
