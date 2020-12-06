@@ -1,5 +1,5 @@
 <template>
   <div>
-    Tab Component
+    <slot />
   </div>
 </template>
