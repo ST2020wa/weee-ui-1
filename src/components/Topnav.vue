@@ -1,6 +1,10 @@
 <template>
     <div class="topnav">
-      <div class="logo">LOGO</div>
+      <div class="logo">
+        <svg class="icon">
+          <use xlink:href="#icon-tree"></use>
+        </svg>
+      </div>
       <ul class="menu">
         <li>Menu-1</li>
         <li>Menu-2</li>
@@ -34,6 +38,10 @@ export default {
   > .logo {
     max-width: 6em;
     margin-right: auto;
+    > svg {
+      width: 24px;
+      height: 24px;
+    }
   }
   > .menu {
     display: flex;
