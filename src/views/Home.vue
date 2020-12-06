@@ -12,15 +12,29 @@
       </div>
     </div>
 <div class="features">
-  <svg class="icon">
-    <use xlink:href="#icon-vue"></use>
-  </svg>
-  <svg class="icon">
-    <use xlink:href="#icon-ts"></use>
-  </svg>
-  <svg class="icon">
-    <use xlink:href="#icon-bulb"></use>
-  </svg>
+  <ul>
+    <li>
+      <svg class="icon">
+        <use xlink:href="#icon-vue"></use>
+      </svg>
+      <h3>Based on Vue 3</h3>
+      <p>Proudly use Vue 3 Composition API</p>
+    </li>
+    <li>
+      <svg class="icon">
+        <use xlink:href="#icon-ts"></use>
+      </svg>
+      <h3>Based on TypeScript</h3>
+      <p>Usage of Typescript (non-restrict mode)</p>
+    </li>
+    <li>
+      <svg class="icon">
+        <use xlink:href="#icon-bulb"></use>
+      </svg>
+      <h3>Easy to read</h3>
+      <p>Minimalism and reader-friendly code</p>
+    </li>
+  </ul>
 </div>
   </div>
 </template>
@@ -39,9 +53,40 @@ $border-radius: 25px;
   clip-path: ellipse(80% 60% at 50% 40%);
 }
 .features {
-  >svg {
-    width: 48px;
-    height: 48px;
+  margin: 64px auto;
+  width: 400px;
+
+  @media (min-width: 800px) {
+    width: 800px;
+  }
+  @media(min-width: 1200px) {
+    width: 1200px;
+  }
+  >ul {
+    display: flex;
+    flex-wrap: wrap;
+    >li {
+      width: 400px;
+      margin: 16px 0;
+      display: grid;
+      justify-content: start;
+      align-content: space-between;
+      grid-template-areas:
+        "icon title"
+        "icon text";
+      grid-template-columns: 80px auto;
+      grid-template-rows: 1fr auto;
+      >svg {
+        grid-area: icon;
+        width: 48px;
+        height: 48px;
+      }
+      >h3 {
+        gride-area: title;
+        font-size: 28px;
+      }
+      >p {gride-area: text}
+    }
   }
 }
 .banner {
