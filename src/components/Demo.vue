@@ -5,7 +5,7 @@
       <component :is="component" />
     </div>
     <div class="demo-actions">
-      <Button @click="codeVisible = !codeVisible">Show code</Button>
+      <Button @click="toggleCode">Show code</Button>
     </div>
     <div class="demo-code" v-if="codeVisible">
       <pre class="language-html"
@@ -31,7 +31,8 @@ export default {
           Prism.languages.html, 'html')
     })
     const codeVisible = ref(false)
-    return {Prism, html, codeVisible}
+    const toggleCode = ()=> codeVisible.value = !codeVisible.value
+    return {Prism, html, codeVisible, toggleCode}
   }
 }
 </script>
