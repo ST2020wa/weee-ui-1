@@ -54,13 +54,22 @@ $border-radius: 25px;
 }
 .features {
   margin: 64px auto;
-  width: 400px;
-
+  padding: 0 16px;
   @media (min-width: 800px) {
     width: 800px;
+    >ul {
+      >li {
+        width: 50%;
+      }
+    }
   }
-  @media(min-width: 1200px) {
+  @media (min-width: 1200px) {
     width: 1200px;
+    >ul {
+      >li {
+        width: 33.3333%;
+      }
+    }
   }
   >ul {
     display: flex;
@@ -78,14 +87,16 @@ $border-radius: 25px;
       grid-template-rows: 1fr auto;
       >svg {
         grid-area: icon;
-        width: 48px;
-        height: 48px;
+        width: 64px;
+        height: 64px;
       }
       >h3 {
-        gride-area: title;
+        grid-area: title;
         font-size: 28px;
       }
-      >p {gride-area: text}
+      >p {
+        grid-area: text
+      }
     }
   }
 }
