@@ -1,9 +1,12 @@
 # 介绍
 
-Weee UI 是一款基于 Vue 3 和 TypeScript 的 UI 组件库。
 
-这款组件库其实是我为了总结自己这几年的技术经验而写的，全程亲手编写，尽量不采用第三方库，包括你现在看到的这个官网也几乎都是我自己写的
+你好，我是ST。Weee-UI 是一款基于 Vue 3 和 TypeScript 的 UI 组件库，参考了官方文档和我自己的技术经验。本着功能与美观兼顾，以及第三方库使用最小化的原则，Weee-UI组件库由我全程手写完成。欢迎移步我的GitHub查看源代码：https://github.com/ST2020wa/weee-ui-1 运行方式详见 README.md 。
+<br>
 
-所以如果强烈不建议你将此 UI 库用于生产环境。但如果你是抱着看源代码的目的来的，那么这个库还是值得一看的。源代码放在了 github.com/STApril/xxxxxxx，历史提交信息非常规范，你可以按提交的顺序逐个查看；你也可以直接查看每个组件的源代码和示例，运行方法见 README.md。
+鉴于 Weee-UI 的原创性和实验性，并不建议将之用于生产环境。如果你有任何建议或问题，欢迎给我留言。后续还会推出英文版，敬请关注^^
+
+Hey I'm ST! Weee UI is a component repo I developed based on Vue 3 and Typescript. Please see the source code via: https://github.com/ST2020wa/weee-ui-1 <br>
+A bilingual version will be launched soon, so stay tuned!
 
 下一节：[安装](#/doc/install)
