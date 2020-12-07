@@ -20,10 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d3e7459-1e24-45c5-a320-a5568e12add8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/plugins/md.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/get-started.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite_opt_cache/hash" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite_opt_cache/hash" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/GetStarted.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/GetStarted.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Install.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Install.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Intro.vue" afterDir="false" />
@@ -43,6 +50,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -54,6 +62,11 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/plugins" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -76,7 +89,7 @@
       <workItem from="1606897668097" duration="10529000" />
       <workItem from="1606964412750" duration="2675000" />
       <workItem from="1607244588507" duration="17672000" />
-      <workItem from="1607296817139" duration="1818000" />
+      <workItem from="1607296817139" duration="4964000" />
     </task>
     <servers />
   </component>
@@ -108,9 +121,9 @@
       <screen x="0" y="23" width="2560" height="1366" />
     </state>
     <state x="334" y="226" width="598" height="490" key="find.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1607297428825" />
-    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup" timestamp="1607298962738">
+    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup" timestamp="1607300729187">
       <screen x="0" y="23" width="2560" height="1366" />
     </state>
-    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1607298962738" />
+    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1607300729187" />
   </component>
 </project>
