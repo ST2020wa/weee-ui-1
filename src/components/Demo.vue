@@ -5,12 +5,11 @@
       <component :is="component" />
     </div>
     <div class="demo-actions">
-      <Button>Show code</Button>
+      <Button @click="codeVisible = !codeVisible">Show code</Button>
     </div>
-    <div class="demo-code">
+    <div class="demo-code" v-if="codeVisible">
       <pre class="language-html"
-           v-html="Prism.highlight(component.__sourceCode,
-           Prism.languages.html, 'html')" />
+           v-html="html" />
     </div>
   </div>
 </template>
@@ -19,13 +18,20 @@
 import Button from '../lib/Button.vue'
 import 'prismjs';
 import 'prismjs/themes/prism.css'
+import {computed, ref} from 'vue';
 const Prism = (window as any).Prism
 export default {
+  components: {Button},
   props: {
     component: Object
   },
-  setup(){
-    return {Prism}
+  setup(props){
+    const html = computed(()=>{
+      return Prism.highlight(props.component.__sourceCode,
+          Prism.languages.html, 'html')
+    })
+    const codeVisible = ref(false)
+    return {Prism, html, codeVisible}
   }
 }
 </script>
