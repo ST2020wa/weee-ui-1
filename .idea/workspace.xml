@@ -21,9 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8d3e7459-1e24-45c5-a320-a5568e12add8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/GetStarted.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Install.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
       <workItem from="1606897668097" duration="10529000" />
       <workItem from="1606964412750" duration="2675000" />
       <workItem from="1607244588507" duration="17672000" />
-      <workItem from="1607296817139" duration="9421000" />
+      <workItem from="1607296817139" duration="10278000" />
     </task>
     <servers />
   </component>
@@ -106,13 +103,13 @@
       <screen x="0" y="23" width="2560" height="1366" />
     </state>
     <state x="366" y="231" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1366@0.23.2560.1366" timestamp="1607319964593" />
-    <state x="334" y="226" width="598" height="490" key="find.popup" timestamp="1607319974502">
+    <state x="334" y="226" width="598" height="490" key="find.popup" timestamp="1607327236087">
       <screen x="0" y="23" width="2560" height="1366" />
     </state>
-    <state x="334" y="226" width="598" height="490" key="find.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1607319974502" />
-    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup" timestamp="1607318107781">
+    <state x="334" y="226" width="598" height="490" key="find.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1607327236087" />
+    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup" timestamp="1607320189232">
       <screen x="0" y="23" width="2560" height="1366" />
     </state>
-    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1607318107781" />
+    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1607320189232" />
   </component>
 </project>
