@@ -33,11 +33,12 @@ $border-color: #d9d9d9;
 $color: #333;
 $blue: #40a9ff;
 $radius: 4px;
+$pink: #e75089;
 .weee-button {
   box-sizing: border-box;
   height: $h;
   padding: 0 12px;
-  cursor: pointer;
+  cursor: cell;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -52,8 +53,8 @@ $radius: 4px;
   }
   &:hover,
   &:focus {
-    color: $blue;
-    border-color: $blue;
+    color: $pink;
+    border-color: $pink;
   }
   &:focus {
     outline: none;

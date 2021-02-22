@@ -20,7 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d3e7459-1e24-45c5-a320-a5568e12add8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite_opt_cache/hash" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite_opt_cache/hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/get-started.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/get-started.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +46,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1ksVxcE6GGbcBKzDq7TMNl7QI5S" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -79,6 +103,9 @@
       <workItem from="1606964412750" duration="2675000" />
       <workItem from="1607244588507" duration="17672000" />
       <workItem from="1607296817139" duration="20209000" />
+      <workItem from="1607489019028" duration="3201000" />
+      <workItem from="1613899645806" duration="1335000" />
+      <workItem from="1613962907668" duration="7084000" />
     </task>
     <servers />
   </component>
@@ -96,23 +123,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="350" y="286" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607297945282">
-      <screen x="0" y="23" width="2560" height="1366" />
-    </state>
-    <state x="350" y="286" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1366@0.23.2560.1366" timestamp="1607297945282" />
-    <state x="366" y="231" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607319964593">
-      <screen x="0" y="23" width="2560" height="1366" />
-    </state>
-    <state x="366" y="231" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1366@0.23.2560.1366" timestamp="1607319964593" />
-    <state x="334" y="226" width="598" height="522" key="find.popup" timestamp="1607348483671">
-      <screen x="0" y="23" width="2560" height="1366" />
-    </state>
-    <state x="334" y="226" width="598" height="522" key="find.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1607348483671" />
-    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup" timestamp="1607350101720">
-      <screen x="0" y="23" width="2560" height="1366" />
-    </state>
-    <state x="299" y="217" width="670" height="676" key="search.everywhere.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1607350101720" />
   </component>
 </project>

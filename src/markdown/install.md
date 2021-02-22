@@ -1,12 +1,12 @@
 # 安装
 
-打开终端运行下列命令：
+请打开终端运行以下 `npm` 命令：
 
 ```
 npm install weee-ui
 ```
 
-或
+或者，也可以运行 `yarn`：
 
 ```
 yarn add weee-ui

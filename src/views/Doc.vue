@@ -4,19 +4,20 @@
     <div class="content">
       <aside v-if="menuVisible">
         <!--        当 menuVisible 变化的时候， aside 也要变化-->
-        <h2>Doc</h2>
+        <h2>文档</h2>
         <ol>
           <li>
-            <router-link to="/doc/intro">Intro</router-link>
+            <router-link to="/doc/intro">简介</router-link>
           </li>
           <li>
-            <router-link to="/doc/install">Install</router-link>
+            <router-link to="/doc/install">如何安装</router-link>
           </li>
           <li>
-            <router-link to="/doc/get-started">Get Started</router-link>
+            <router-link to="/doc/get-started">开始使用</router-link>
           </li>
         </ol>
-        <h2>Components</h2>
+        <br />
+        <h2>组件</h2>
         <ol>
           <li>
             <router-link to="/doc/switch">Switch</router-link>
@@ -80,7 +81,7 @@ $aside-index : 10;
   }
 }
 aside {
-  background: lightblue;
+  background: linear-gradient(135deg, rgba(231,80,137,1) 0%, rgba(228,152,147,1) 50%, rgba(218,154,188,1) 100%);
   width: 150px;
   padding: 16px 0;
   position: fixed;
@@ -101,7 +102,7 @@ aside {
         text-decoration: none;
       }
       .router-link-active {
-        background: white;
+        background: rgba(246, 230, 222,0.5);
       }
     }
   }

@@ -7,7 +7,7 @@
         <h2>An AWESOME UI-frame</h2>
         <p class="actions">
           <a href="https://github.com/ST2020wa">GitHub</a>
-          <router-link to="/doc">Get Started</router-link>
+          <router-link to="/doc">开始探索</router-link>
         </p>
       </div>
     </div>
@@ -45,11 +45,12 @@
   }
 </script>
 <style lang="scss" scoped>
+$pink: #e75089;
 $sandypink: #f6e6de;
 $border-radius: 25px;
 .topnavAndBanner {
-  background: rgb(231,80,137);
-  background: linear-gradient(135deg, rgba(231,80,137,1) 0%, rgba(228,152,147,1) 50%, rgba(218,154,188,1) 100%);
+  background: $pink;
+  background: linear-gradient(135deg, $pink 0%, rgba(228,152,147,1) 50%, rgba(218,154,188,1) 100%);
   clip-path: ellipse(80% 60% at 50% 40%);
 }
 .features {

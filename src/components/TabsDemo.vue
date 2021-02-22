@@ -1,5 +1,5 @@
 <template>
-<h1>Tabs Demo</h1>
+<h1>Tabs 组件示例</h1>
   <Demo :component="Tabs1Demo" />
 </template>
 

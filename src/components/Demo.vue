@@ -5,7 +5,7 @@
       <component :is="component" />
     </div>
     <div class="demo-actions">
-      <Button @click="toggleCode">Show code</Button>
+      <Button @click="toggleCode">显示代码</Button>
     </div>
     <div class="demo-code" v-if="codeVisible">
       <pre class="language-html"
@@ -60,6 +60,7 @@ $border-color: #d9d9d9;
     >pre {
       line-height: 1.1;
       font-family: Consolas, 'Courier New', Courier, monospace;
+      font-weight: 500;
       margin: 0;
     }
   }
