@@ -16,12 +16,12 @@
       loading: {type: Boolean, default: false}
     },
   setup(props){
-    const {theme,size, level } = props
+    const {theme,size,level} = props
     const classes = computed(()=>{
       return {
         [`weee-theme-${theme}`]: theme,
         [`weee-size-${size}`]: size,
-        [`weee-size-${level}`]: level,
+        [`weee-size-${level}`]: level
       };
     });
       return {classes}
@@ -158,6 +158,9 @@ $orange: #f9970e;
       height: 20px;
       padding: 0 4px;
     }
+  &.weee-level-main{
+    background: red;
+  }
 
   > .weee-loadingIndicator{
     width: 14px;
