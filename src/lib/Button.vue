@@ -16,17 +16,17 @@
       loading: {type: Boolean, default: false}
     },
   setup(props){
-    const {theme,size, } = props
+    const {theme,size, level } = props
     const classes = computed(()=>{
       return {
         [`weee-theme-${theme}`]: theme,
         [`weee-size-${size}`]: size,
+        [`weee-size-${level}`]: level,
       };
     });
       return {classes}
     }
   }
-
 </script>
 <style lang="scss">
 $h: 32px;
@@ -79,10 +79,10 @@ $orange: #f9970e;
     width: 1.5 * $h;
     background: $p-pink;
     &:hover {
-      background: darken($sandypink, 1%);
+      background: lighten($p-pink, 20%);
     }
     &:focus {
-      background: $pink;
+      background: $sandypink;
     }
   }
   &.weee-theme-round-star {
@@ -92,10 +92,10 @@ $orange: #f9970e;
     width: 1.5 * $h;
     background: $orange;
     &:hover {
-      background: darken($sandypink, 1%);
+      background: lighten($orange, 20%);
     }
     &:focus {
-      background: $pink;
+      background: $sandypink;
     }
   }
   &.weee-theme-round-share {
@@ -105,10 +105,10 @@ $orange: #f9970e;
     width: 1.5 * $h;
     background: $dark-blue;
     &:hover {
-      background: darken($sandypink, 1%);
+      background: lighten($dark-blue, 20%);
     }
     &:focus {
-      background: $pink;
+      background: $sandypink;
     }
   }
   &.weee-theme-round-pen {
@@ -118,10 +118,10 @@ $orange: #f9970e;
     width: 1.5 * $h;
     background: $green;
     &:hover {
-      background: darken($sandypink, 1%);
+      background: lighten($green, 20%);
     }
     &:focus {
-      background: $pink;
+      background: $sandypink;
     }
   }
   &.weee-theme-link {
@@ -129,7 +129,7 @@ $orange: #f9970e;
     box-shadow: none;
     color: $blue;
     &:hover{
-      color: lighten($blue, 10%);
+      color: lighten($blue, 20%);
     }
     &:focus{
       color: white;
@@ -140,25 +140,25 @@ $orange: #f9970e;
     border-color: transparent;
     box-shadow: none;
     color: inherit;
-    &:hover,
+    &:hover{
+      color: lighten(darkgrey, 20%);
+    }
     &:focus {
-      background: darken(rgba(246, 230, 222,0.5)
-    , 2%);
+      color: black;
+      background: $sandypink;
     }
   }
-  &.weee-theme-button{
-    &.weee-size-big{
-      font-size: 24px;
-      height: 48px;
-      padding: 0 16px
+  &.weee-size-big{
+      font-size: 28px;
+      height: 52px;
+      padding: 0 20px
     }
-
-    &.weee-size-small{
+  &.weee-size-small{
       font-size: 12px;
       height: 20px;
       padding: 0 4px;
     }
-  }
+
   > .weee-loadingIndicator{
     width: 14px;
     height: 14px;
