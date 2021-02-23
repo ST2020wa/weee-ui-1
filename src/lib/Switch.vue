@@ -23,6 +23,7 @@ import {ref} from 'vue'
 </script>
 
 <style lang="scss">
+$mid-pink: #e49893;
 $h: 22px;
 $h2: $h - 4px;
 .weee-switch {
@@ -32,6 +33,7 @@ $h2: $h - 4px;
   border: none;
   border-radius: $h/2;
   position: relative;
+  cursor: pointer;
   > span{
     position: absolute;
     top: 2px;
@@ -43,7 +45,7 @@ $h2: $h - 4px;
     transition: left 250ms;
   }
   &.weee-checked{
-    background: lightgreen;
+    background: $mid-pink;
     > span {
       left: calc(100% - #{$h2} - 2px);
     }

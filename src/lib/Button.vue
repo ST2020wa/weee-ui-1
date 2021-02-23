@@ -9,13 +9,14 @@
   export default {
     props: {
       theme: {type: String, default:'button'},
+      round: {type: String, default:'normal'},
       size: {type: String, default: 'normal'},
       level: {type: String, default: 'normal'},
       disabled: {type: Boolean, default: false},
       loading: {type: Boolean, default: false}
     },
   setup(props){
-      const {theme,size} = props
+    const {theme,size, } = props
     const classes = computed(()=>{
       return {
         [`weee-theme-${theme}`]: theme,
@@ -29,16 +30,22 @@
 </script>
 <style lang="scss">
 $h: 32px;
+$radius: 4px;
 $border-color: #d9d9d9;
 $color: #333;
 $blue: #40a9ff;
-$radius: 4px;
+$dark-blue: #303ca6;
+$green: #3fa33f;
+$p-pink: #e1004f;
 $pink: #e75089;
+$mid-pink: #e49893;
+$sandypink: #f6e6de;
+$orange: #f9970e;
 .weee-button {
   box-sizing: border-box;
   height: $h;
   padding: 0 12px;
-  cursor: cell;
+  cursor: pointer;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -48,13 +55,16 @@ $pink: #e75089;
   border: 1px solid $border-color;
   border-radius: $radius;
   box-shadow: 0 1px 0 fade-out(black, 0.95);
-  & + & {
+    & + & {
     margin-left: 8px;
   }
-  &:hover,
-  &:focus {
+  &:hover {
     color: $pink;
     border-color: $pink;
+  }
+  &:focus {
+    color: white;
+    background: $pink;
   }
   &:focus {
     outline: none;
@@ -62,13 +72,68 @@ $pink: #e75089;
   &::-moz-focus-inner {
     border: 0;
   }
+  &.weee-theme-round {
+    border: none;
+    border-radius: 40px;
+    height: 1.5 * $h;
+    width: 1.5 * $h;
+    background: $p-pink;
+    &:hover {
+      background: darken($sandypink, 1%);
+    }
+    &:focus {
+      background: $pink;
+    }
+  }
+  &.weee-theme-round-star {
+    border: none;
+    border-radius: 40px;
+    height: 1.5 * $h;
+    width: 1.5 * $h;
+    background: $orange;
+    &:hover {
+      background: darken($sandypink, 1%);
+    }
+    &:focus {
+      background: $pink;
+    }
+  }
+  &.weee-theme-round-share {
+    border: none;
+    border-radius: 40px;
+    height: 1.5 * $h;
+    width: 1.5 * $h;
+    background: $dark-blue;
+    &:hover {
+      background: darken($sandypink, 1%);
+    }
+    &:focus {
+      background: $pink;
+    }
+  }
+  &.weee-theme-round-pen {
+    border: none;
+    border-radius: 40px;
+    height: 1.5 * $h;
+    width: 1.5 * $h;
+    background: $green;
+    &:hover {
+      background: darken($sandypink, 1%);
+    }
+    &:focus {
+      background: $pink;
+    }
+  }
   &.weee-theme-link {
     border-color: transparent;
     box-shadow: none;
     color: $blue;
-    &:hover,
-    &:focus{
+    &:hover{
       color: lighten($blue, 10%);
+    }
+    &:focus{
+      color: white;
+      background: $blue;
     }
   }
   &.weee-theme-text {
@@ -77,7 +142,8 @@ $pink: #e75089;
     color: inherit;
     &:hover,
     &:focus {
-      background: darken(white, 5%);;
+      background: darken(rgba(246, 230, 222,0.5)
+    , 2%);
     }
   }
   &.weee-theme-button{
@@ -86,6 +152,7 @@ $pink: #e75089;
       height: 48px;
       padding: 0 16px
     }
+
     &.weee-size-small{
       font-size: 12px;
       height: 20px;
@@ -100,7 +167,7 @@ $pink: #e75089;
     border-radius: 8px;
     border-color: $blue $blue $blue transparent;
     border-style: solid;
-    border-width: 2px;
+    border-width: 20px;
     animation: weee-spin 1s infinite linear;
   }
 }

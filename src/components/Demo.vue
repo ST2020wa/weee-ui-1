@@ -4,8 +4,11 @@
     <div class="demo-component">
       <component :is="component" />
     </div>
-    <div class="demo-actions">
+    <div class="demo-actions" v-if="codeVisible === false">
       <Button @click="toggleCode">显示代码</Button>
+    </div>
+    <div class="demo-actions" v-if="codeVisible === true">
+      <Button @click="toggleCode">隐藏代码</Button>
     </div>
     <div class="demo-code" v-if="codeVisible">
       <pre class="language-html"
@@ -32,6 +35,8 @@ export default {
     })
     const codeVisible = ref(false)
     const toggleCode = ()=> codeVisible.value = !codeVisible.value
+    let x
+    if(codeVisible === ref(false)){x === "A"}else{x === "B"}
     return {Prism, html, codeVisible, toggleCode}
   }
 }
