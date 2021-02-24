@@ -21,7 +21,7 @@
       return {
         [`weee-theme-${theme}`]: theme,
         [`weee-size-${size}`]: size,
-        [`weee-size-${level}`]: level
+        [`weee-level-${level}`]: level,
       };
     });
       return {classes}
@@ -36,6 +36,7 @@ $color: #333;
 $blue: #40a9ff;
 $dark-blue: #303ca6;
 $green: #3fa33f;
+$mid-green: #6cc469;
 $p-pink: #e1004f;
 $pink: #e75089;
 $mid-pink: #e49893;
@@ -65,8 +66,6 @@ $orange: #f9970e;
   &:focus {
     color: white;
     background: $pink;
-  }
-  &:focus {
     outline: none;
   }
   &::-moz-focus-inner {
@@ -78,6 +77,7 @@ $orange: #f9970e;
     height: 1.5 * $h;
     width: 1.5 * $h;
     background: $p-pink;
+    box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.25);
     &:hover {
       background: lighten($p-pink, 20%);
     }
@@ -91,6 +91,7 @@ $orange: #f9970e;
     height: 1.5 * $h;
     width: 1.5 * $h;
     background: $orange;
+    box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.25);
     &:hover {
       background: lighten($orange, 20%);
     }
@@ -104,6 +105,7 @@ $orange: #f9970e;
     height: 1.5 * $h;
     width: 1.5 * $h;
     background: $dark-blue;
+    box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.25);
     &:hover {
       background: lighten($dark-blue, 20%);
     }
@@ -117,6 +119,7 @@ $orange: #f9970e;
     height: 1.5 * $h;
     width: 1.5 * $h;
     background: $green;
+    box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.25);
     &:hover {
       background: lighten($green, 20%);
     }
@@ -159,9 +162,46 @@ $orange: #f9970e;
       padding: 0 4px;
     }
   &.weee-level-main{
-    background: red;
+    background: $pink;
+    color: white;
+    &:hover {
+      background: lighten($pink, 20%);
+      border-color: transparent;
+      color: black;
+    }
+    &:focus {
+      background: $sandypink;
+      color: $p-pink;
+      border-color: $p-pink;
+    }
   }
-
+  &.weee-level-safe{
+    color: $mid-green;
+    border-color: lighten($mid-green, 20%);
+    &:hover {
+      background: lighten($mid-green, 20%);
+      border-color: transparent;
+      color: lighten(black, 20%);
+    }
+    &:focus {
+      background: $mid-green;
+      color: white;
+      border-color: transparent;
+    }
+  }
+  &.weee-level-danger{
+    color: red;
+    border-color: red;
+    &:hover {
+      background: lighten(red, 20%);
+      color: lighten(black, 20%);
+      font-weight: bold;
+    }
+    &:focus {
+      background: red;
+      color: white;
+    }
+  }
   > .weee-loadingIndicator{
     width: 14px;
     height: 14px;

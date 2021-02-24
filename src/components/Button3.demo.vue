@@ -4,22 +4,23 @@
 <template>
   <div>
     <div>
-      <Button level="main">主要按钮</Button>
-      <Button>普通按钮</Button>
-      <Button level="danger">危险按钮</Button>
+      <Button level="main">重要级别</Button>
+      <Button>普普通通</Button>
+      <Button level="safe">安全操作</Button>
+      <Button level="danger">危险操作</Button>
     </div>
-    <br/>
-    <div>
-      <Button theme="link" level="main">主要链接按钮</Button>
-      <Button theme="link">普通链接按钮</Button>
-      <Button theme="link" level="danger">危险链接按钮</Button>
-    </div>
-    <br/>
-    <div>
-      <Button theme="text" level="main">主要文字按钮</Button>
-      <Button theme="text">普通文字按钮</Button>
-      <Button theme="text" level="danger">危险文字按钮</Button>
-    </div>
+<!--    <br/>-->
+<!--    <div>-->
+<!--      <Button theme="link" level="main">重要级别链接</Button>-->
+<!--      <Button theme="link">普普通通链接</Button>-->
+<!--      <Button theme="link" level="danger">危险操作链接</Button>-->
+<!--    </div>-->
+<!--    <br/>-->
+<!--    <div>-->
+<!--      <Button theme="text" level="main">重要级别文字</Button>-->
+<!--      <Button theme="text">普普通通文字</Button>-->
+<!--      <Button theme="text" level="danger">危险操作文字</Button>-->
+<!--    </div>-->
   </div>
 </template>
 
