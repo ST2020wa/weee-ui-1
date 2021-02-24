@@ -69,7 +69,7 @@ export default {
 </script>
 
 <style lang="scss">
-$blue: #40a9ff;
+$pink: #e75089;
 $color: #333;
 $border-color: #d9d9d9;
 .weee-tabs {
@@ -81,18 +81,18 @@ $border-color: #d9d9d9;
     &-item {
       padding: 8px 0;
       margin: 0 16px;
-      cursor: cell;
+      cursor: pointer;
       &:first-child {
         margin-left: 0;
       }
       &.selected {
-        color: $blue;
+        color: $pink;
       }
     }
     &-indicator {
       position: absolute;
       height: 3px;
-      background: $blue;
+      background: $pink;
       left: 0;
       bottom: -1px;
       width: 100px;

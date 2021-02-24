@@ -1,5 +1,5 @@
 <demo>
-一键打开 Dialog
+一行代码打开 Dialog
 </demo>
 <template>
   <div>
@@ -23,10 +23,11 @@ export default {
   setup() {
     const showDialog = () => {
       openDialog({
-        title: h('strong', {}, '标题'),
-        content: '你好',
+        title: h('strong', {}, '我是标题'),
+        content: '你好，我是ST！第二种方法是仅调用一个 API 打开 Dialog 哦～',
         ok() {
           console.log('ok')
+          return false
         },
         cancel() {
           console.log('cancel')

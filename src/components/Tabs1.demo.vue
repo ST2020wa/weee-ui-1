@@ -3,8 +3,9 @@
 </demo>
 <template>
   <Tabs v-model:selected="x">
-    <Tab title="导航1">内容1</Tab>
-    <Tab title="导航2">内容2</Tab>
+    <Tab title="导航栏1">内容1</Tab>
+    <Tab title="导航栏2">内容2</Tab>
+    <Tab title="导航栏3">内容3</Tab>
   </Tabs>
 </template>
 
@@ -20,7 +21,7 @@ export default {
     Tab
   },
   setup() {
-    const x = ref('导航1')
+    const x = ref('导航栏1')
     return {
       x
     }

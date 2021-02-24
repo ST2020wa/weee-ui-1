@@ -14,8 +14,8 @@
             <slot name="content" />
           </main>
           <footer>
-            <Button level="main" @click="ok">OK</Button>
-            <Button @click="cancel">Cancel</Button>
+            <Button level="main" @click="ok">确认</Button>
+            <Button @click="cancel">取消</Button>
           </footer>
         </div>
       </div>
@@ -48,13 +48,13 @@ export default {
       }
     }
     const ok = ()=>{
-      if(props.ok ?.() !== false){
+      if(props.ok?.() !== false){
       // 上一行是本行的简写 if(props.ok && props.ok()!== false){
           close()
       }
     }
     const cancel = ()=>{
-      props.cancel ?.()
+      props.cancel?.()
       // 上一行是本行的简写 props.cancel && props.cancel()
       close()
     }
@@ -70,7 +70,7 @@ $border-color: #d9d9d9;
 .weee-dialog {
   background: white;
   border-radius: $radius;
-  box-shadow: 0 0 3px fade_out(black, 0.5);
+  box-shadow: 0 0 3px fade_out(black, 0.8);
   min-width: 15em;
   max-width: 90%;
   &-overlay {
@@ -79,7 +79,7 @@ $border-color: #d9d9d9;
     left: 0;
     width: 100%;
     height: 100%;
-    background: fade_out(black, 0.5);
+    background: fade_out(black, 0.8);
     z-index: 10;
   }
   &-wrapper {
