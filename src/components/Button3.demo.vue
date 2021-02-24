@@ -1,5 +1,5 @@
 <demo>
-支持 level
+支持四种分类规格
 </demo>
 <template>
   <div>

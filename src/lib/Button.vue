@@ -202,16 +202,25 @@ $orange: #f9970e;
       color: white;
     }
   }
+  &.weee-theme-button,&.weee-theme-link,&.weee-theme-text {
+    &[disabled] {
+      cursor: not-allowed;
+    }
+  }
+
   > .weee-loadingIndicator{
     width: 14px;
     height: 14px;
     display: inline-block;
     margin-right: 4px;
     border-radius: 8px;
-    border-color: $blue $blue $blue transparent;
+    border-color: $p-pink $pink $mid-pink transparent;
     border-style: solid;
-    border-width: 20px;
+    border-width: 2px;
     animation: weee-spin 1s infinite linear;
+    &:hover{
+      cursor: pointer;
+    }
   }
 }
 @keyframes weee-spin {
