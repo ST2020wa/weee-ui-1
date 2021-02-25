@@ -19,8 +19,9 @@
 </template>
 
 <script lang="ts">
-import Dialog from '../lib/Dialog.vue'
-import Button from '../lib/Button.vue'
+import {Dialog,Button} from '../lib/index'
+// 注意：这里引用的是相对路径，使用时需要改成 `from "weee-ui-1"`
+
 import {
   ref
 } from 'vue'

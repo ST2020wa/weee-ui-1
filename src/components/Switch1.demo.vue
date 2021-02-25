@@ -7,7 +7,9 @@
 </template>
 
 <script lang="ts">
-import Switch from '../lib/Switch.vue'
+import {Switch} from '../lib/index'
+// 注意：这里引用的是相对路径，使用时需要改成 `from "weee-ui-1"`
+
 import {
   ref
 } from 'vue'
