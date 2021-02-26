@@ -48,13 +48,15 @@ export default {
       }
     }
     const ok = ()=>{
-      if(props.ok?.() !== false){
-      // 上一行是本行的简写 if(props.ok && props.ok()!== false){
+      if(props.ok && props.ok()!== false){
+        // 也可以使用 if(props.ok?.() !== false){
+        // 上一行是本行的简写 if(props.ok && props.ok()!== false){
           close()
       }
     }
     const cancel = ()=>{
-      props.cancel?.()
+      props.cancel && props.cancel()
+      // props.cancel?.()
       // 上一行是本行的简写 props.cancel && props.cancel()
       close()
     }
