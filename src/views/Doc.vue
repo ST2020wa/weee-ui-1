@@ -20,16 +20,16 @@
         <h2>组件</h2>
         <ol>
           <li>
-            <router-link to="/doc/switch">Switch</router-link>
+            <router-link to="/doc/switch">Switch 开关</router-link>
           </li>
           <li>
-            <router-link to="/doc/button">Button</router-link>
+            <router-link to="/doc/button">Button 按键</router-link>
           </li>
           <li>
-            <router-link to="/doc/dialog">Dialog</router-link>
+            <router-link to="/doc/dialog">Dialog 会话</router-link>
           </li>
           <li>
-            <router-link to="/doc/tabs">Tabs</router-link>
+            <router-link to="/doc/tabs">Tabs 导航栏</router-link>
           </li>
         </ol>
       </aside>

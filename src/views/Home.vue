@@ -3,7 +3,7 @@
     <div class="topnavAndBanner">
       <Topnav />
       <div class="banner">
-        <h1>Weee-UI</h1>
+        <h1>无意 UI</h1>
         <h2>An AWESOME UI-frame</h2>
         <p class="actions">
           <a href="https://github.com/ST2020wa">GitHub</a>
@@ -17,22 +17,22 @@
       <svg class="icon">
         <use xlink:href="#icon-vue"></use>
       </svg>
-      <h3>Based on Vue 3</h3>
-      <p>Proudly use Vue 3 Composition API</p>
+      <h3>基于 Vue 3</h3>
+      <p>基于 Vue 3 Composition API 开发</p>
     </li>
     <li>
       <svg class="icon">
         <use xlink:href="#icon-ts"></use>
       </svg>
-      <h3>Based on TypeScript</h3>
-      <p>Usage of Typescript (non-restrict mode)</p>
+      <h3>全面支持 TypeScript</h3>
+      <p>使用 Typescript 非严格模式</p>
     </li>
     <li>
       <svg class="icon">
         <use xlink:href="#icon-bulb"></use>
       </svg>
-      <h3>Easy to read</h3>
-      <p>Minimalism and reader-friendly code</p>
+      <h3>轻巧易读</h3>
+      <p>外观简洁 功能直观 易于上手</p>
     </li>
   </ul>
 </div>

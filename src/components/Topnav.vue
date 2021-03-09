@@ -7,7 +7,7 @@
       </router-link>
       <ul class="menu">
         <li>
-          <router-link to="/doc">Guide</router-link>
+          <router-link to="/doc">文档首页</router-link>
         </li>
       </ul>
       <svg v-if="toggleMenuButtonVisible"
